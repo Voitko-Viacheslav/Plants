@@ -1,5 +1,6 @@
 const path = require('path'); 
 const htmlWebpackPlugin = require('html-webpack-plugin') // подключаем HTML библиотеку
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin') // подключаем Favicon
 
 module.exports = {
   mode: 'production',
@@ -46,6 +47,22 @@ module.exports = {
     title: 'My Web Page',      // название страницы
     filename: 'index.html',    // название файла
     template: 'plants/src/index.html' // подключаем файл index.html
-  }) 
+  }),
+  new FaviconsWebpackPlugin({
+    logo: 'plants/src/assets/fav.png',
+     //logo: 'src/img/icon.svg',
+     mode: 'webapp',
+     devMode: 'webapp',
+     prefix: 'assets/favicons/',
+     cache: true,
+     inject: htmlPlugin => {
+       return true
+       return basename(htmlPlugin.options.filename) === 'pages/articles.html'
+     },
+     favicons: {
+       background: '#fff',
+       theme_color: '#333',
+     },
+   }),  
 ] 
 }

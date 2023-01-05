@@ -64,6 +64,7 @@ html {
 .plants__container {
   margin: 0 auto;
   max-width: 1440px;
+  // overflow: hidden;
 }
 .plants__container-content {
   margin: 0 auto;
@@ -315,6 +316,7 @@ html {
 .prices__wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-top: 40px;
   padding-bottom: 115px;
   font-family: 'Inter';

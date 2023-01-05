@@ -19,6 +19,7 @@
   "homepage": "https://github.com/rolling-scopes-school/voitko-viacheslav-JSFEPRESCHOOL2022Q4#readme",
   "dependencies": {
     "css-loader": "^6.7.3",
+    "favicons-webpack-plugin": "^6.0.0",
     "html-webpack-plugin": "^5.5.0",
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0",

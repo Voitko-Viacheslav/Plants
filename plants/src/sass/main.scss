@@ -64,7 +64,7 @@ html {
 .plants__container {
   margin: 0 auto;
   max-width: 1440px;
-  // overflow: hidden;
+  overflow: hidden;
 }
 .plants__container-content {
   margin: 0 auto;
@@ -156,7 +156,7 @@ html {
 }
 .welcome__description {
   margin: 0;
-  padding-bottom: 48px;
+  padding-bottom: 30px;
   max-width: 549px;
 }
 .welcome__title {
@@ -178,7 +178,6 @@ html {
 }
 .welcome__more {
   box-sizing: border-box;
-  padding: 14px 27px;
   padding: 10px 25px;
   border: 2px solid #E06733;
   background: #EDF2EC;
@@ -316,13 +315,10 @@ html {
 .prices__wrapper {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   padding-top: 40px;
   padding-bottom: 115px;
   font-family: 'Inter';
   font-style: normal;
-}
-.prices__wrapper-left {
 }
 .prices__title-left {
   margin: 0;
@@ -400,8 +396,10 @@ html {
 }
 .contacts__wrapper {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   padding-top: 53px;
+  justify-content: center;
 }
 .woman {
   margin-right: 113px;
@@ -435,7 +433,6 @@ html {
   line-height: 40px;
   letter-spacing: 0.05em;
   color: #717171;
-
 }
 // End section contacks_______________________________________________________________
 
@@ -495,3 +492,4 @@ html {
   }
 }
 // End footer _______________________________________________________________
+

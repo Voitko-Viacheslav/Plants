@@ -1,0 +1,13 @@
+@media screen and (max-width: 380px) {
+  .header__nav {
+      display: none;
+  }
+  .plant {
+    max-width: 150px;
+    max-height: 147px;
+  }
+  .header__wraper {
+    padding: 36px 0;
+    margin-bottom: 0px;
+  }
+}

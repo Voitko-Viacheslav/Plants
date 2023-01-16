@@ -48,14 +48,17 @@ import cardP3_768 from './assets/card_3_768.png'
 import cardP4_768 from './assets/card_4_768.png'
 import cardP5_768 from './assets/card_5_768.png'
 import cardP6_768 from './assets/card_6_768.png'
+
 if (document.documentElement.clientWidth <= 767) {
-cardPic1.src = cardP1_768
-cardPic2.src = cardP2_768
-cardPic3.src = cardP3_768
-cardPic4.src = cardP4_768
-cardPic5.src = cardP5_768
-cardPic6.src = cardP6_768
+    cardPic1.src = cardP1_768;
+    cardPic2.src = cardP2_768;
+    cardPic3.src = cardP3_768;
+    cardPic4.src = cardP4_768;
+    cardPic5.src = cardP5_768;
+    cardPic6.src = cardP6_768; 
 }
+
+  
 
 import leafsSm from './assets/leafs-small.png'
 const leafsSmall = document.querySelector('.leafs-small')

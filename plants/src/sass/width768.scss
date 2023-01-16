@@ -13,18 +13,19 @@
     justify-content: center;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    column-gap: 42px;
+    column-gap: 0px;
     padding-bottom: 70px;
     padding-top: 40px;
   }
   .welcome__information {
-    max-width: 50%;
+    max-width: 58%;
   }
   .welcome__title {
     font-size: 35px;
     padding-bottom: 30px;
   }
   .welcome__description {
+    max-width: 341px;
     font-size: 16px;
     line-height: 25px;
   }
@@ -65,8 +66,8 @@
   }
   .service__card-information {
     padding: 0 35px;
-    
   }
+  
   .card__title {
     margin: 10px 0 10px 0;
   }
@@ -126,4 +127,6 @@
     margin-top: -10px;
     margin-bottom: 10px;
   }
+
+
 }

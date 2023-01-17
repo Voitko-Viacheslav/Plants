@@ -1,5 +1,9 @@
 @media screen and (max-width: 380px) {
- 
+  /* Убираем прокрутку страницы под бургером */
+  body._lock {
+    overflow: hidden;
+  }
+
   .plant {
     max-width: 150px;
     max-height: 147px;

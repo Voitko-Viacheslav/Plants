@@ -57,11 +57,6 @@ $gray: #717171;
        url('../fonts/inika-v21-latin-700.svg#Inika') format('svg'); /* Legacy iOS */
 }
 
-/* Убираем прокрутку страницы под бургером */
-body._lock {
-  overflow: hidden;
-}
-
 html {
   scroll-behavior: smooth;
   }

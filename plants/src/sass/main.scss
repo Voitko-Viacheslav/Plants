@@ -57,19 +57,14 @@ $gray: #717171;
        url('../fonts/inika-v21-latin-700.svg#Inika') format('svg'); /* Legacy iOS */
 }
 
-/* Убираем прокрутку страницы под бургером */
-body._lock {
-  overflow: hidden;
-}
-
 html {
   scroll-behavior: smooth;
   }
 
 .plants__container {
   margin: 0 auto;
-  // max-width: 1440px;
-  overflow: hidden;
+  max-width: 1440px;
+  // overflow: hidden;
 }
 .plants__container-content {
   margin: 0 auto;
@@ -134,7 +129,7 @@ html {
     color: yellowgreen;
   }
 }
-.header__link-orange {
+.header__link-active {
   font-weight: 700;
   color: $orange;
 }
@@ -161,7 +156,7 @@ html {
 }
 .welcome__description {
   margin: 0;
-  padding-bottom: 30px;
+  padding-bottom: 48px;
   max-width: 549px;
 }
 .welcome__title {
@@ -183,21 +178,17 @@ html {
 }
 .welcome__more {
   box-sizing: border-box;
+  padding: 14px 27px;
   padding: 10px 25px;
   border: 2px solid #E06733;
   background: #EDF2EC;
   border-radius: 10px;
-  transition: 0.5s;
 }
 .more {
   font-size: 16px;
   line-height: 20px;
   color: #000000;
   text-decoration: none;
-}
-.welcome__more:hover {
-  color: #FFFFFF;
-  background: #E06733;
 }
 // End section welcome_______________________________________________________________
 
@@ -278,13 +269,7 @@ html {
   background: #EDF2EC;
   border-radius: 5px;
   text-decoration: none;
-  transition: 0.5s;
 }
-.service__button:hover {
-  background: #E06733;
-  color: #FFFFFF;
-}
-
 
 .service__wrapper-cards {
   display: grid;
@@ -331,10 +316,13 @@ html {
 .prices__wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-top: 40px;
   padding-bottom: 115px;
   font-family: 'Inter';
   font-style: normal;
+}
+.prices__wrapper-left {
 }
 .prices__title-left {
   margin: 0;
@@ -397,11 +385,6 @@ html {
   background: #FFFFFF;
   border: 1px solid #E06733;
   border-radius: 5px;
-  transition: 0.5s;
-}
-.prices__button:hover {
-  background: #E06733;
-  color: #FFFFFF;
 }
 .leafs-small {
   width: 152px;
@@ -417,10 +400,8 @@ html {
 }
 .contacts__wrapper {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   padding-top: 53px;
-  justify-content: center;
 }
 .woman {
   margin-right: 113px;
@@ -454,6 +435,7 @@ html {
   line-height: 40px;
   letter-spacing: 0.05em;
   color: #717171;
+
 }
 // End section contacks_______________________________________________________________
 
@@ -513,41 +495,3 @@ html {
   }
 }
 // End footer _______________________________________________________________
-
-
-// Start Burger *****************************************************************
-.burger {
-  width: 40px;
-  height: 24px;
-  position: relative;
-}
-.header__burger {
-  display: none;
-}
-
-.burger__line {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: #717171;
-}
-
-.burger__line-1 {
-  top: 0%;
-  margin-top: 0;
-}
-.burger__line-2 {
-  top: 25%;
-  margin-top: 2px;
-}
-.burger__line-3 {
-  top: 50%;
-  margin-top: 4px;
-}
-.burger__line-4 {
-  top: 75%;
-  margin-top: 6px;
-}
-// End Burger _______________________________________________________________
-

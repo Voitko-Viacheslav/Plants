@@ -1,0 +1,132 @@
+@media screen and (max-width: 767px) {
+  .plants__container-content {
+    padding: 0 50px;
+  }
+
+  .header__wraper {
+    padding: 35px 0;
+    margin-bottom: 0px;
+  }
+
+  .welcome__wrapper {
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    column-gap: 0px;
+    padding-bottom: 70px;
+    padding-top: 40px;
+  }
+  .welcome__information {
+    max-width: 58%;
+  }
+  .welcome__title {
+    font-size: 35px;
+    padding-bottom: 30px;
+  }
+  .welcome__description {
+    max-width: 341px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .about__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    column-gap: 0;
+    padding: 40px 0 95px 0;
+  }
+  .about__title {
+    font-size: 35px;
+    line-height: 46px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .about__description  {
+    margin-bottom: 70px;
+  }
+
+  .service__wrapper {
+    padding-bottom: 65px;
+  }
+  .service__wrapper-head {
+    column-gap: 0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .service__title {
+    margin-bottom: 40px;
+    font-size: 35px;
+    line-height: 46px;
+  }
+  .service__wrapper-cards {
+    column-gap: 106px;
+    row-gap: 38px;
+  }
+  .service__card-information {
+    padding: 0 35px;
+  }
+  
+  .card__title {
+    margin: 10px 0 10px 0;
+  }
+  .card-description {
+    margin-bottom: 20px;
+  }
+
+  .prices__wrapper {
+    padding-top: 40px;
+    padding-bottom: 88px;
+  }
+  .prices__title-left {
+    padding-left: 15px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    line-height: 42px;
+  }
+  .prices__wrapper-right {
+   margin-top: 105px;
+  }
+  .prices__title-right {
+    margin-bottom: 22px;
+  }
+  .prices__button {
+    margin-bottom: 34px;
+  }
+
+  .contacts__wrapper {
+    padding-top: 30px;
+  }
+  .woman {
+    order: 3;
+    width: 200px;
+    height: 248px;
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  .contacts__title {
+    order: 1;
+    margin-bottom: 100px;
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+  .contacts__accordion {
+    order: 2;
+    margin-top: 0;
+    margin-bottom: 250px;
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+
+  .footer__wrapper {
+    flex-direction: column;
+    padding: 25px 0 18px 0;
+  }
+  .rolling  {
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+
+
+}

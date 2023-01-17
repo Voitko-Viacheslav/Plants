@@ -1,0 +1,46 @@
+@media screen and (max-width: 1000px) {
+  .plants__container-content {
+    padding: 0 20px;
+  }
+
+  .welcome__wrapper {
+    column-gap: 150px;
+  }
+  .welcome__title {
+    font-size: 35px;
+  }
+  .leafs {
+    width: 280px;
+    height: 254px;
+    scale: 1;
+  }
+
+  .about__wrapper {
+    column-gap: 100px;
+  }
+  .plant {
+    max-width: 250px;
+    max-height: 258px;
+  }
+  .about__title {
+    font-size: 35px;
+  }
+
+  .service__card {
+    grid-column: span 3;
+  }
+
+  .prices__title-right {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .woman {
+    margin-right: 30px;
+  }
+  .contacts__accordion {
+    margin-top: 70px;
+  }
+
+
+}

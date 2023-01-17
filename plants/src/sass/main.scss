@@ -68,7 +68,7 @@ html {
 
 .plants__container {
   margin: 0 auto;
-  max-width: 1440px;
+  // max-width: 1440px;
   overflow: hidden;
 }
 .plants__container-content {
@@ -187,12 +187,17 @@ html {
   border: 2px solid #E06733;
   background: #EDF2EC;
   border-radius: 10px;
+  transition: 0.5s;
 }
 .more {
   font-size: 16px;
   line-height: 20px;
   color: #000000;
   text-decoration: none;
+}
+.welcome__more:hover {
+  color: #FFFFFF;
+  background: #E06733;
 }
 // End section welcome_______________________________________________________________
 
@@ -273,7 +278,13 @@ html {
   background: #EDF2EC;
   border-radius: 5px;
   text-decoration: none;
+  transition: 0.5s;
 }
+.service__button:hover {
+  background: #E06733;
+  color: #FFFFFF;
+}
+
 
 .service__wrapper-cards {
   display: grid;
@@ -386,6 +397,11 @@ html {
   background: #FFFFFF;
   border: 1px solid #E06733;
   border-radius: 5px;
+  transition: 0.5s;
+}
+.prices__button:hover {
+  background: #E06733;
+  color: #FFFFFF;
 }
 .leafs-small {
   width: 152px;

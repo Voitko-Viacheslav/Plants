@@ -5,6 +5,10 @@ console.log('Вёрстка валидная +10\nВёрстка семанти�
       // Открываю бургер
       const burgerMenu = document.querySelector('.header__burger');
       const menu = document.querySelector('.header__nav');
+      // const backHeader = document.querySelector('.background__header');
+      const allHideClose = document.querySelector('.main');
+      
+
       burgerMenu.addEventListener('click', () => {
         // Убираем прокрутку страницы под бургером
         document.body.classList.toggle('_lock');
@@ -12,6 +16,13 @@ console.log('Вёрстка валидная +10\nВёрстка семанти�
         menu.classList.toggle('_active');
         // Анимация линий
         burgerMenu.classList.toggle('_active');      
+      })
+
+      // Клик вне бургер меню
+      allHideClose.addEventListener('click', () => {
+        menu.classList.remove('_active');
+        burgerMenu.classList.remove('_active');  
+        document.body.classList.remove('_lock');
       })
 
       // По меню закрываю бургер

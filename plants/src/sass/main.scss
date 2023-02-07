@@ -275,7 +275,7 @@ html {
   text-decoration: none;
   transition: 0.5s;
 }
-.service__button:hover {
+.service__button._active {
   background: #E06733;
   color: #FFFFFF;
 }
@@ -299,6 +299,9 @@ html {
   &:hover {
     scale: 0.97;
   }
+}
+.service__card._no-active {
+  filter: blur(2px);
 }
 .card__title {
   margin: 10px 0 15px 0;
